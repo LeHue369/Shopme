@@ -1,0 +1,3 @@
+CREATE USER 'user_1'@'%' IDENTIFIED BY 'password';
+CREATE DATABASE blackpinkdb;
+GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, REFERENCES, SELECT ON blackpinkdb.* TO 'springboot'@'%';
